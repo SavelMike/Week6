@@ -24,4 +24,8 @@ public class Country {
     public int getPopulation() {
         return population;
     }
+
+    public String toString() {
+        return "Name: " + name + ", area: " + area + ", population: " + population;
+    }
 }

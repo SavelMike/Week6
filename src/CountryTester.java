@@ -43,5 +43,8 @@ public class CountryTester {
             Country c = new Country(country, area, population);
             list.addCountry(c);
         }
+        System.out.println(list.LargestArea());
+        System.out.println(list.LargestPopulation());
+        System.out.println(list.LargestPopDensity());
     }
 }
