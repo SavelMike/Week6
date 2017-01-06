@@ -39,6 +39,8 @@ public class CountryTester {
             }
 
             Country c = new Country(country, area, population);
+            CountrySet list = new CountrySet();
+            list.addCountry(c);
         }
     }
 }
