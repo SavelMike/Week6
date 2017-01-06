@@ -13,6 +13,8 @@ public class CountryTester {
         File f = new File(filename);
         Scanner scanner = new Scanner(f);
 
+        CountrySet list = new CountrySet();
+
         while (scanner.hasNextLine()) {
             String line = scanner.next();
             Scanner scStr = new Scanner(line);
@@ -39,7 +41,6 @@ public class CountryTester {
             }
 
             Country c = new Country(country, area, population);
-            CountrySet list = new CountrySet();
             list.addCountry(c);
         }
     }
